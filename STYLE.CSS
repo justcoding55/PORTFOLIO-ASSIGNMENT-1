@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;   
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.575)), url('/Background\ Image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: transparent;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    font-size: 43px !important;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 20px; */
+    color: red;
+    position: relative;
+    left: 2.1%;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.listitems {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 26px;
+    font-size: 18px;
+}
+
+.listitems:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.searchinput {
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px 6px;
+    /* margin-right: 20px; */
+}
+
+.btn {
+    cursor: pointer !important;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0px rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-right: 8px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    width: 100%;
+    padding: 25px;
+    margin-top: 55px;
+    /* margin-left: 75px; */
+    left: 3.5%;
+position: relative;
+}
+
+.text {
+    width: 48%;
+    color: white;
+
+}
+
+.text h1 {
+    font-size: 73px;
+    /* font-weight: 1000; */
+}
+
+.text p {
+    color: #c5c1c1;
+    font-size: 20px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.116);
+    /* box-shadow: 2px 5px 10p transparent; */
+    font-family: sans-serif;
+    width: 20%;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    margin-left: 200px;
+    /* margin-right: 50px; */
+}
+
+.join {
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 3px 20px;
+    box-shadow: 2px 5px 4px gray;
+}
+
+.q {
+    color: red;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    border: none;
+    padding: 6px 10px;
+    background-color: rgb(52, 4, 83);
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.email {
+    margin-top: 35px;
+    border: none;
+    /* box-sizing: content-box;  */
+    padding: 6px 30px;
+    background: transparent;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid red;
+}
+
+.pass {
+    margin-top: 35px;
+    border: none;
+    box-sizing: content-box;
+    padding: 6px 30px;
+    background: transparent;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid red;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(64, 4, 104);
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ac {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.s {
+    text-align: center;
+    /* margin-left: 60px; */
+    color: red;
+
+}
+
+.z {
+    text-align: center;
+    /* margin-left: 27px; */
+    color: white;
+    text-decoration: none;
+}
+
+.h {
+    margin-top: 66px;
+    padding: 15px;
+    width: 50%;
+    border: 2px double red;
+    /* border-top: 1px solid red; */
+    color: white;
+    font-size: 35px;
+}
+
+.content1 {
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    flex-wrap: wrap;
+    /* border-radius: 10px; */
+}
+
+.card1 {
+    width: 360px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px white;
+    margin: 20px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 250px;
+    /* border-radius: px; */
+}
+
+.content1 {
+    padding: 16px;
+}
+
+.content1 span {
+    background-color: rgb(199, 25, 161);
+    color: rgb(255, 253, 253);
+    padding: 2px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+
+
+}
+
+.content1 h3 {
+    margin-top: 13px;
+    font-size: 23px;
+    color: black;
+}
+
+.content1 p {
+    margin-top: 5px;
+    color: rgb(49, 49, 49);
+    font-size: 14px;
+}
+
+.btn1 {
+    display: inline-block;
+    color: white;
+    background-color: #333;
+    padding: 7px 15px;
+    border-radius: 4px;
+    margin: 18px 0px 0px 0px;
+    text-decoration: none;
+    /* margin: 9px; */
+}
+
+.team {
+    margin-top: 120px;
+    padding: 10px 40px;
+    border: 3px dotted red;
+    color: white;
+    font-size: 40px;
+    width: 50vw;
+}
+
+.Our Team Members {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    /* color: white; */
+    width: 100%;
+}
+
+.im1 {
+    width: 350px;
+    color: white;
+    margin: 20px;
+}
+
+.im1 img {
+    border-radius: 50%;
+    width: 95%;
+    height: 350px;
+}
+
+.id {
+    font-size: 28px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content2 {
+    text-align: center;
+    margin-top: 18px;
+    padding: 15px;
+}
+
+.para {
+    font-size: 18px;
+    margin-top: 12px;
+    color: rgb(228, 245, 0);
+}
+
+.ContactForm {
+    margin-top: 80px;
+    padding: 10px 40px;
+    border: 3px dashed red;
+    color: rgb(104, 187, 255);
+    font-size: 40px;
+    width: 50vw;
+    margin-bottom: 85px;
+}
+
+.form {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 5px 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    color: white;
+}
+
+.leftpart {
+    height: 560px;
+    width: 50%;
+}
+
+.heading {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.detail {
+    height: auto;
+    width: auto;
+    /* background-color: rgba(255, 255, 255, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 15px;
+
+}
+
+.rightpart {
+    height: auto;
+    width: 50%;
+    /* border-radius: 5px; */
+
+}
+
+.Text {
+    color: white;
+    margin: 15px 0px 10px 0px;
+    padding: 7px 19px;
+    width: 95%;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.Email {
+    color: white;
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+    padding: 7px 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.Subject {
+    color: white;
+    margin: 10px 0px 10px 0px;
+    width: 95%;
+    padding: 7px 19px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.Message {
+    color: white;
+    margin: 0px 0px 10px 0px;
+    width: 95%;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.Submit {
+
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.edit {
+    font-size: 20px;
+    color: rgb(161, 161, 255);
+}
+
+.footer {
+    /* margin-left: 0px; */
+    color: white;
+    /* height: 100%; */
+    margin-top: 70px;
+    width: 100vw;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+.about {
+    width: 20%;
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.Resources {
+    width: 20%;
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+.Contact1 {
+    width: 20%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.StayUpdated {
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.same {
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    padding: 8px px;
+    margin-top: 10px;
+
+
+}
+
+.items {
+    list-style: none;
+    margin: 8px;
+    font-size: 16px;
+    /* margin-top: 18px; */
+}
+
+.mail {
+    border: none;
+    padding: 6px 12px;
+    width: 48%;
+}
+
+.subs {
+    padding: 6px 12px;
+    margin-left: -4px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    cursor: grab;
+}
+
+.end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 45%
+}
+
+.end1 {
+    margin-left: 45px;
+}
+
+.Copyright {
+    position: relative;
+    top: 20%;
+    padding: 10.5px;
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-self: flex-end; */
+    flex-wrap: wrap;
+}
+.child{
+    font-size: 16.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0px 8px;
+    
+}
+.Icons{
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.iconimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 30px;
+    cursor: grab;
+    position: relative;
+    left: 100%;
+    top: 20%;
+
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+.iconimg1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    left: 75%;
+    top: 18%;
+    height: 35px;  
+    width: 35px;
+    cursor: grab;
+}
